@@ -2,7 +2,7 @@
 ## Project Scope
 Develop a system that utilizes Machine Learning (ML) and Natural Language Processing (NLP) techniques to automatically detect hate speech in text data. <br> 
 
-Data Source is available in Kaggle, named [Hate Speech and Offensive Language Dataset](https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset/data) and it is [Licensed].(https://creativecommons.org/publicdomain/zero/1.0/). The most important part of this data collection is the comments section. By studying these comments, we can identify and categorize them as Hate speech, Offensive language, or Neutral language. This will be helpful for further analysis.
+Data Source is available in Kaggle, named [Hate Speech and Offensive Language Dataset](https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset/data) and it is [Licensed](https://creativecommons.org/publicdomain/zero/1.0/). The most important part of this data collection is the comments section. By studying these comments, we can identify and categorize them as Hate speech, Offensive language, or Neutral language. This will be helpful for further analysis.
 
 ## Data Collection and Preprocessing 
 
