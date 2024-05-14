@@ -14,14 +14,14 @@ The data contains the following information, Unnamed: 0, count,	hate_speech, off
 ### Data Cleaning 
 In this phase, we use Natural Language ToolKit ( NLTK ) for data processing. 
 
-Cleaning is done using, [Stopwords](https://www.geeksforgeeks.org/removing-stop-words-nltk-python/) & [Stemmer].(https://saturncloud.io/glossary/stemming/#:~:text=Stemming%20is%20a%20text%20preprocessing,classification%2C%20and%20other%20NLP%20tasks.) tools in NLTK. 
+Cleaning is done using, [Stopwords](https://www.geeksforgeeks.org/removing-stop-words-nltk-python/) & [Stemmer](https://saturncloud.io/glossary/stemming/#:~:text=Stemming%20is%20a%20text%20preprocessing,classification%2C%20and%20other%20NLP%20tasks). tools in NLTK. 
 1. <code> stop_words = set(stopwords.words('english')) </code>.
 2. <code> stemmer = nltk.stem.SnowballStemmer('english') </code>.
 
 <i> This paraphrase clarifies that the initial steps mentioned help get the data ready for the cleaning process, which will be done using the Natural Language Toolkit (NLTK). </i>
 
 ## Model Training and Evaluation 
-For Model building, we use [DecisionTreeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html), The basic idea behind decision trees is to recursively partition the data space into smaller and smaller subsets, until each subset contains only one type of data point. This is done by selecting a feature and a threshold value at each node of the tree. The data points are then split into two groups, based on whether their value for the selected feature is less than or greater than the threshold.
+For Model building, we use [DecisionTreeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)  The basic idea behind decision trees is to recursively partition the data space into smaller and smaller subsets, until each subset contains only one type of data point. This is done by selecting a feature and a threshold value at each node of the tree. The data points are then split into two groups, based on whether their value for the selected feature is less than or greater than the threshold.
 
 
 <pre>from sklearn.tree import DecisionTreeClassifier   
